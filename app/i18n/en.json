@@ -23,5 +23,16 @@
   "storybook": {
     "placeholder": "Placeholder",
     "field": "Field"
+  },
+  "homeScreen": {
+    "calculate": "Сalculate",
+    "detailedCal": "Detailed calculation",
+    "askQues": "Ask question",
+    "description": "Gömrük rüsumunu hesablama mexanizmi gömrük qanunvericiliyinə əsaslanır."
+  },
+  "calculateScreen": {
+    "custVal": "Customs value of the car",
+    "EngOperaVol": "Engine operating volume - cm3",
+    "titleCarCountry": "Country of origin",
   }
 }

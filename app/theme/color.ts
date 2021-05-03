@@ -40,10 +40,12 @@ export const color = {
    * The default color of text in many components.
    */
   text: palette.white,
+  textFieldLabel: palette.gray,
+  input: palette.lighterGrey,
   /**
    * Secondary information.
    */
-  dim: palette.lightGrey,
+  dim: palette.gray,
   /**
    * Error messages and icons.
    */

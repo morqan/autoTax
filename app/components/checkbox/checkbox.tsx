@@ -7,8 +7,11 @@ import { mergeAll, flatten } from "ramda"
 
 const ROOT: ViewStyle = {
   flexDirection: "row",
-  paddingVertical: spacing[1],
+  paddingVertical: 11,
+  paddingHorizontal: 14,
+  borderRadius: 4,
   alignSelf: "flex-start",
+  backgroundColor: color.palette.blue
 }
 
 const DIMENSIONS = { width: 16, height: 16 }
@@ -29,7 +32,7 @@ const FILL: ViewStyle = {
   backgroundColor: color.primary,
 }
 
-const LABEL: TextStyle = { paddingLeft: spacing[2] }
+const LABEL: TextStyle = { paddingLeft: spacing[2], fontSize: 16, fontWeight: "500" }
 
 export function Checkbox(props: CheckboxProps) {
   const numberOfLines = props.multiline ? 0 : 1
